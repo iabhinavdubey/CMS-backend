@@ -4,7 +4,6 @@ const cors = require("cors");
 const connectDB = require("./config/db");
 
 
-const cors = require('cors');
 
 app.use(cors({
   origin: 'https://cms-frontend-six-steel.vercel.app', 
